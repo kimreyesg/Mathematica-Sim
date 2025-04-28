@@ -1,0 +1,1630 @@
+(* Content-type: application/vnd.wolfram.mathematica *)
+
+(*** Wolfram Notebook File ***)
+(* http://www.wolfram.com/nb *)
+
+(* CreatedBy='Wolfram 14.2' *)
+
+(*CacheID: 234*)
+(* Internal cache information:
+NotebookFileLineBreakTest
+NotebookFileLineBreakTest
+NotebookDataPosition[       154,          7]
+NotebookDataLength[     69498,       1622]
+NotebookOptionsPosition[     67423,       1576]
+NotebookOutlinePosition[     68153,       1600]
+CellTagsIndexPosition[     68072,       1595]
+WindowFrame->Normal*)
+
+(* Beginning of Notebook Content *)
+Notebook[{
+
+Cell[CellGroupData[{
+Cell["NaCl Crystal Structure", "Title",
+ CellChangeTimes->{{3.954861797486347*^9, 
+  3.9548618043995934`*^9}},ExpressionUUID->"ade54fa3-2e25-403a-8087-\
+4fd76fd8ab60"],
+
+Cell[BoxData[
+ RowBox[{"\t  ", 
+  RowBox[{"Graphics3D", "[", "\[IndentingNewLine]", "\t    ", 
+   RowBox[{
+    RowBox[{"Table", "[", "\[IndentingNewLine]", "\t      ", 
+     RowBox[{
+      RowBox[{"{", "\[IndentingNewLine]", "\t        ", 
+       RowBox[{"Blue", ",", 
+        RowBox[{"Sphere", "[", 
+         RowBox[{
+          RowBox[{"{", 
+           RowBox[{"0", ",", "0", ",", "0"}], "}"}], ",", "0.2"}], "]"}], ",",
+         "                  ", 
+        RowBox[{"(*", " ", 
+         RowBox[{"Sodium", " ", "at", " ", "corners"}], " ", "*)"}], 
+        "\[IndentingNewLine]", "                 ", "Blue", ",", 
+        RowBox[{"Sphere", "[", 
+         RowBox[{
+          RowBox[{"{", 
+           RowBox[{"2", ",", "0", ",", "0"}], "}"}], ",", "0.2"}], "]"}], ",",
+         "                  ", 
+        RowBox[{"(*", " ", 
+         RowBox[{"Sodium", " ", "at", " ", "corners"}], " ", "*)"}], 
+        "\[IndentingNewLine]", "                 ", "Blue", ",", 
+        RowBox[{"Sphere", "[", 
+         RowBox[{
+          RowBox[{"{", 
+           RowBox[{"0", ",", "2", ",", "0"}], "}"}], ",", "0.2"}], "]"}], ",",
+         "                  ", 
+        RowBox[{"(*", " ", 
+         RowBox[{"Sodium", " ", "at", " ", "corners"}], " ", "*)"}], 
+        "\[IndentingNewLine]", "                 ", "Blue", ",", 
+        RowBox[{"Sphere", "[", 
+         RowBox[{
+          RowBox[{"{", 
+           RowBox[{"0", ",", "0", ",", "2"}], "}"}], ",", "0.2"}], "]"}], ",",
+         "                  ", 
+        RowBox[{"(*", " ", 
+         RowBox[{"Sodium", " ", "at", " ", "corners"}], " ", "*)"}], 
+        "\[IndentingNewLine]", "                 ", "Blue", ",", 
+        RowBox[{"Sphere", "[", 
+         RowBox[{
+          RowBox[{"{", 
+           RowBox[{"0", ",", "2", ",", "2"}], "}"}], ",", "0.2"}], "]"}], ",",
+         "                  ", 
+        RowBox[{"(*", " ", 
+         RowBox[{"Sodium", " ", "at", " ", "corners"}], " ", "*)"}], 
+        "\[IndentingNewLine]", "                 ", "Blue", ",", 
+        RowBox[{"Sphere", "[", 
+         RowBox[{
+          RowBox[{"{", 
+           RowBox[{"2", ",", "2", ",", "0"}], "}"}], ",", "0.2"}], "]"}], ",",
+         "                  ", 
+        RowBox[{"(*", " ", 
+         RowBox[{"Sodium", " ", "at", " ", "corners"}], " ", "*)"}], 
+        "\[IndentingNewLine]", "                 ", "Blue", ",", 
+        RowBox[{"Sphere", "[", 
+         RowBox[{
+          RowBox[{"{", 
+           RowBox[{"2", ",", "0", ",", "2"}], "}"}], ",", "0.2"}], "]"}], ",",
+         "                  ", 
+        RowBox[{"(*", " ", 
+         RowBox[{"Sodium", " ", "at", " ", "corners"}], " ", "*)"}], 
+        "\[IndentingNewLine]", "                 ", "Blue", ",", 
+        RowBox[{"Sphere", "[", 
+         RowBox[{
+          RowBox[{"{", 
+           RowBox[{"2", ",", "2", ",", "2"}], "}"}], ",", "0.2"}], "]"}], ",",
+         "                  ", 
+        RowBox[{"(*", " ", 
+         RowBox[{"Sodium", " ", "at", " ", "corners"}], " ", "*)"}], 
+        "\[IndentingNewLine]", "                 ", "Blue", ",", 
+        RowBox[{"Sphere", "[", 
+         RowBox[{
+          RowBox[{"{", 
+           RowBox[{"1", ",", "1", ",", "0"}], "}"}], ",", "0.2"}], "]"}], ",",
+         "                  ", 
+        RowBox[{"(*", " ", 
+         RowBox[{"Sodium", " ", "at", " ", "corners"}], " ", "*)"}], 
+        "\[IndentingNewLine]", "                 ", "Blue", ",", 
+        RowBox[{"Sphere", "[", 
+         RowBox[{
+          RowBox[{"{", 
+           RowBox[{"1", ",", "0", ",", "1"}], "}"}], ",", "0.2"}], "]"}], ",",
+         "                  ", 
+        RowBox[{"(*", " ", 
+         RowBox[{"Sodium", " ", "at", " ", "corners"}], " ", "*)"}], 
+        "\[IndentingNewLine]", "                 ", "Blue", ",", 
+        RowBox[{"Sphere", "[", 
+         RowBox[{
+          RowBox[{"{", 
+           RowBox[{"0", ",", "1", ",", "1"}], "}"}], ",", "0.2"}], "]"}], ",",
+         "                  ", 
+        RowBox[{"(*", " ", 
+         RowBox[{"Sodium", " ", "at", " ", "corners"}], " ", "*)"}], 
+        "\[IndentingNewLine]", "                 ", "Blue", ",", 
+        RowBox[{"Sphere", "[", 
+         RowBox[{
+          RowBox[{"{", 
+           RowBox[{"2", ",", "1", ",", "1"}], "}"}], ",", "0.2"}], "]"}], ",",
+         "                  ", 
+        RowBox[{"(*", " ", 
+         RowBox[{"Sodium", " ", "at", " ", "corners"}], " ", "*)"}], 
+        "\[IndentingNewLine]", "                 ", "Blue", ",", 
+        RowBox[{"Sphere", "[", 
+         RowBox[{
+          RowBox[{"{", 
+           RowBox[{"1", ",", "2", ",", "1"}], "}"}], ",", "0.2"}], "]"}], ",",
+         "                  ", 
+        RowBox[{"(*", " ", 
+         RowBox[{"Sodium", " ", "at", " ", "corners"}], " ", "*)"}], 
+        "\[IndentingNewLine]", "                 ", "Blue", ",", 
+        RowBox[{"Sphere", "[", 
+         RowBox[{
+          RowBox[{"{", 
+           RowBox[{"1", ",", "1", ",", "2"}], "}"}], ",", "0.2"}], "]"}], ",",
+         "                  ", 
+        RowBox[{"(*", " ", 
+         RowBox[{"Sodium", " ", "at", " ", "corners"}], " ", "*)"}], 
+        "\[IndentingNewLine]", "                ", "Yellow", ",", 
+        RowBox[{"Sphere", "[", 
+         RowBox[{
+          RowBox[{"{", 
+           RowBox[{"1", ",", "0", ",", "0"}], "}"}], ",", "0.1"}], "]"}], ",", 
+        RowBox[{"(*", " ", 
+         RowBox[{"Chloride", " ", "at", " ", "face", " ", "centers"}], " ", 
+         "*)"}], "\[IndentingNewLine]", "                ", "Yellow", ",", 
+        RowBox[{"Sphere", "[", 
+         RowBox[{
+          RowBox[{"{", 
+           RowBox[{"0", ",", "1", ",", "0"}], "}"}], ",", "0.1"}], "]"}], ",", 
+        RowBox[{"(*", " ", 
+         RowBox[{"Chloride", " ", "at", " ", "face", " ", "centers"}], " ", 
+         "*)"}], "\[IndentingNewLine]", "                ", "Yellow", ",", 
+        RowBox[{"Sphere", "[", 
+         RowBox[{
+          RowBox[{"{", 
+           RowBox[{"0", ",", "0", ",", "1"}], "}"}], ",", "0.1"}], "]"}], ",", 
+        RowBox[{"(*", " ", 
+         RowBox[{"Chloride", " ", "at", " ", "face", " ", "centers"}], " ", 
+         "*)"}], "\[IndentingNewLine]", "                ", "Yellow", ",", 
+        RowBox[{"Sphere", "[", 
+         RowBox[{
+          RowBox[{"{", 
+           RowBox[{"1", ",", "2", ",", "0"}], "}"}], ",", "0.1"}], "]"}], ",", 
+        RowBox[{"(*", " ", 
+         RowBox[{"Chloride", " ", "at", " ", "face", " ", "centers"}], " ", 
+         "*)"}], "\[IndentingNewLine]", "                ", "Yellow", ",", 
+        RowBox[{"Sphere", "[", 
+         RowBox[{
+          RowBox[{"{", 
+           RowBox[{"0", ",", "1", ",", "2"}], "}"}], ",", "0.1"}], "]"}], ",", 
+        RowBox[{"(*", " ", 
+         RowBox[{"Chloride", " ", "at", " ", "face", " ", "centers"}], " ", 
+         "*)"}], "\[IndentingNewLine]", "                ", "Yellow", ",", 
+        RowBox[{"Sphere", "[", 
+         RowBox[{
+          RowBox[{"{", 
+           RowBox[{"0", ",", "2", ",", "1"}], "}"}], ",", "0.1"}], "]"}], ",", 
+        RowBox[{"(*", " ", 
+         RowBox[{"Chloride", " ", "at", " ", "face", " ", "centers"}], " ", 
+         "*)"}], "\[IndentingNewLine]", "                ", "Yellow", ",", 
+        RowBox[{"Sphere", "[", 
+         RowBox[{
+          RowBox[{"{", 
+           RowBox[{"1", ",", "1", ",", "1"}], "}"}], ",", "0.1"}], "]"}], ",", 
+        RowBox[{"(*", " ", 
+         RowBox[{"Chloride", " ", "at", " ", "face", " ", "centers"}], " ", 
+         "*)"}], "\[IndentingNewLine]", "                ", "Yellow", ",", 
+        RowBox[{"Sphere", "[", 
+         RowBox[{
+          RowBox[{"{", 
+           RowBox[{"2", ",", "1", ",", "0"}], "}"}], ",", "0.1"}], "]"}], ",", 
+        RowBox[{"(*", " ", 
+         RowBox[{"Chloride", " ", "at", " ", "face", " ", "centers"}], " ", 
+         "*)"}], "\[IndentingNewLine]", "                ", "Yellow", ",", 
+        RowBox[{"Sphere", "[", 
+         RowBox[{
+          RowBox[{"{", 
+           RowBox[{"2", ",", "0", ",", "1"}], "}"}], ",", "0.1"}], "]"}], ",", 
+        RowBox[{"(*", " ", 
+         RowBox[{"Chloride", " ", "at", " ", "face", " ", "centers"}], " ", 
+         "*)"}], "\[IndentingNewLine]", "                ", "Yellow", ",", 
+        RowBox[{"Sphere", "[", 
+         RowBox[{
+          RowBox[{"{", 
+           RowBox[{"1", ",", "0", ",", "2"}], "}"}], ",", "0.1"}], "]"}], ",", 
+        RowBox[{"(*", " ", 
+         RowBox[{"Chloride", " ", "at", " ", "face", " ", "centers"}], " ", 
+         "*)"}], "\[IndentingNewLine]", "                ", "Yellow", ",", 
+        RowBox[{"Sphere", "[", 
+         RowBox[{
+          RowBox[{"{", 
+           RowBox[{"2", ",", "1", ",", "2"}], "}"}], ",", "0.1"}], "]"}], ",", 
+        RowBox[{"(*", " ", 
+         RowBox[{"Chloride", " ", "at", " ", "face", " ", "centers"}], " ", 
+         "*)"}], "\[IndentingNewLine]", "                ", "Yellow", ",", 
+        RowBox[{"Sphere", "[", 
+         RowBox[{
+          RowBox[{"{", 
+           RowBox[{"2", ",", "2", ",", "1"}], "}"}], ",", "0.1"}], "]"}], ",", 
+        RowBox[{"(*", " ", 
+         RowBox[{"Chloride", " ", "at", " ", "face", " ", "centers"}], " ", 
+         "*)"}], "\[IndentingNewLine]", "                ", "Yellow", ",", 
+        RowBox[{"Sphere", "[", 
+         RowBox[{
+          RowBox[{"{", 
+           RowBox[{"1", ",", "2", ",", "2"}], "}"}], ",", "0.1"}], "]"}], ",", 
+        RowBox[{"(*", " ", 
+         RowBox[{"Chloride", " ", "at", " ", "face", " ", "centers"}], " ", 
+         "*)"}], "\[IndentingNewLine]", "  ", "Gray", ",", 
+        RowBox[{"Line", "[", 
+         RowBox[{"{", 
+          RowBox[{
+           RowBox[{"{", 
+            RowBox[{"x", ",", "y", ",", "z"}], "}"}], ",", 
+           RowBox[{"{", 
+            RowBox[{
+             RowBox[{"x", "+", "1"}], ",", "y", ",", "z"}], "}"}], ",", 
+           RowBox[{"{", 
+            RowBox[{
+             RowBox[{"x", "+", "1"}], ",", 
+             RowBox[{"y", "+", "1"}], ",", "z"}], "}"}], ",", 
+           RowBox[{"{", 
+            RowBox[{"x", ",", 
+             RowBox[{"y", "+", "1"}], ",", "z"}], "}"}], ",", 
+           RowBox[{"{", 
+            RowBox[{"x", ",", "y", ",", "z"}], "}"}]}], "}"}], "]"}], ",", 
+        "\[IndentingNewLine]", "        ", "Gray", ",", 
+        RowBox[{"Line", "[", 
+         RowBox[{"{", 
+          RowBox[{
+           RowBox[{"{", 
+            RowBox[{"x", ",", "y", ",", "z"}], "}"}], ",", 
+           RowBox[{"{", 
+            RowBox[{"x", ",", "y", ",", 
+             RowBox[{"z", "+", "1"}]}], "}"}], ",", 
+           RowBox[{"{", 
+            RowBox[{
+             RowBox[{"x", "+", "1"}], ",", "y", ",", 
+             RowBox[{"z", "+", "1"}]}], "}"}], ",", 
+           RowBox[{"{", 
+            RowBox[{
+             RowBox[{"x", "+", "1"}], ",", 
+             RowBox[{"y", "+", "1"}], ",", 
+             RowBox[{"z", "+", "1"}]}], "}"}], ",", 
+           RowBox[{"{", 
+            RowBox[{"x", ",", 
+             RowBox[{"y", "+", "1"}], ",", 
+             RowBox[{"z", "+", "1"}]}], "}"}], ",", 
+           RowBox[{"{", 
+            RowBox[{"x", ",", "y", ",", 
+             RowBox[{"z", "+", "1"}]}], "}"}]}], "}"}], "]"}], ",", 
+        "\[IndentingNewLine]", "        ", "Gray", ",", 
+        RowBox[{"Line", "[", 
+         RowBox[{"{", 
+          RowBox[{
+           RowBox[{"{", 
+            RowBox[{
+             RowBox[{"x", "+", "1"}], ",", "y", ",", "z"}], "}"}], ",", 
+           RowBox[{"{", 
+            RowBox[{
+             RowBox[{"x", "+", "1"}], ",", "y", ",", 
+             RowBox[{"z", "+", "1"}]}], "}"}]}], "}"}], "]"}], ",", 
+        "\[IndentingNewLine]", "        ", "Gray", ",", 
+        RowBox[{"Line", "[", 
+         RowBox[{"{", 
+          RowBox[{
+           RowBox[{"{", 
+            RowBox[{"x", ",", 
+             RowBox[{"y", "+", "1"}], ",", "z"}], "}"}], ",", 
+           RowBox[{"{", 
+            RowBox[{"x", ",", 
+             RowBox[{"y", "+", "1"}], ",", 
+             RowBox[{"z", "+", "1"}]}], "}"}]}], "}"}], "]"}], ",", 
+        "\[IndentingNewLine]", "        ", "Gray", ",", 
+        RowBox[{"Line", "[", 
+         RowBox[{"{", 
+          RowBox[{
+           RowBox[{"{", 
+            RowBox[{
+             RowBox[{"x", "+", "1"}], ",", 
+             RowBox[{"y", "+", "1"}], ",", "z"}], "}"}], ",", 
+           RowBox[{"{", 
+            RowBox[{
+             RowBox[{"x", "+", "1"}], ",", 
+             RowBox[{"y", "+", "1"}], ",", 
+             RowBox[{"z", "+", "1"}]}], "}"}]}], "}"}], "]"}]}], 
+       "\[IndentingNewLine]", "      ", "}"}], ",", "\[IndentingNewLine]", 
+      "      ", 
+      RowBox[{"{", 
+       RowBox[{"x", ",", "0", ",", "1"}], "}"}], ",", 
+      RowBox[{"{", 
+       RowBox[{"y", ",", "0", ",", "1"}], "}"}], ",", 
+      RowBox[{"{", 
+       RowBox[{"z", ",", "0", ",", "1"}], "}"}]}], "\[IndentingNewLine]", 
+     "    ", "]"}], ",", "\[IndentingNewLine]", "\t    ", 
+    RowBox[{"Boxed", "->", "False"}], ",", 
+    RowBox[{"Axes", "->", "False"}], ",", "\[IndentingNewLine]", "\t    ", 
+    RowBox[{"PlotRange", "->", 
+     RowBox[{"{", 
+      RowBox[{
+       RowBox[{"{", 
+        RowBox[{
+         RowBox[{"-", "0.5"}], ",", "2.5"}], "}"}], ",", 
+       RowBox[{"{", 
+        RowBox[{
+         RowBox[{"-", "0.5"}], ",", "2.5"}], "}"}], ",", 
+       RowBox[{"{", 
+        RowBox[{
+         RowBox[{"-", "0.5"}], ",", "2.5"}], "}"}]}], "}"}]}], ",", 
+    RowBox[{"AxesOrigin", "->", 
+     RowBox[{"{", 
+      RowBox[{"0", ",", "0", ",", "0"}], "}"}]}]}], "\[IndentingNewLine]", 
+   "\t  ", "]"}]}]], "Input",
+ CellChangeTimes->{{3.95468746483344*^9, 3.954687473591662*^9}, {
+  3.954687505077292*^9, 3.954687932664069*^9}, {3.9546879705390043`*^9, 
+  3.954688281721703*^9}, {3.954688330893695*^9, 3.954688390363495*^9}, {
+  3.954747173897044*^9, 3.954747216943568*^9}, {3.954747541365734*^9, 
+  3.9547475423029823`*^9}},
+ CellLabel->"In[1]:=",ExpressionUUID->"8a91e812-3b9d-4d96-bf43-017f9bcfb3b6"],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{
+  InterpretationBox[
+   TagBox[
+    TagBox[
+     DynamicModuleBox[{Typeset`open = False}, 
+      FrameBox[
+       PaneSelectorBox[{False->GridBox[{
+          {
+           PaneBox[GridBox[{
+              {
+               StyleBox[
+                StyleBox[
+                 AdjustmentBox["\<\"[\[FilledSmallSquare]]\"\>",
+                  BoxBaselineShift->-0.25,
+                  BoxMargins->{{0, 0}, {-1, -1}}], "ResourceFunctionIcon",
+                 
+                 FontColor->RGBColor[
+                  0.8745098039215686, 0.2784313725490196, 
+                   0.03137254901960784]],
+                ShowStringCharacters->False,
+                FontFamily->"Source Sans Pro Black",
+                FontSize->0.6538461538461539 Inherited,
+                FontWeight->"Heavy",
+                PrivateFontOptions->{"OperatorSubstitution"->False}], 
+               StyleBox[
+                RowBox[{
+                 StyleBox["SpinShow", "ResourceFunctionLabel"], " "}],
+                ShowAutoStyles->False,
+                ShowStringCharacters->False,
+                FontSize->Rational[12, 13] Inherited,
+                FontColor->GrayLevel[0.1]]}
+             },
+             GridBoxSpacings->{"Columns" -> {{0.25}}}],
+            Alignment->Left,
+            BaseStyle->{LineSpacing -> {0, 0}, LineBreakWithin -> False},
+            BaselinePosition->Baseline,
+            FrameMargins->{{3, 0}, {0, 0}}], 
+           ItemBox[
+            PaneBox[
+             TogglerBox[Dynamic[Typeset`open], {True->
+              
+              DynamicBox[FEPrivate`FrontEndResource[
+               "FEBitmaps", "IconizeCloser"],
+               
+               ImageSizeCache->{
+                11., {0.878509521484375, 10.121490478515625`}}], False->
+              
+              DynamicBox[FEPrivate`FrontEndResource[
+               "FEBitmaps", "IconizeOpener"],
+               
+               ImageSizeCache->{
+                11., {0.878509521484375, 10.121490478515625`}}]},
+              Appearance->None,
+              BaselinePosition->Baseline,
+              ContentPadding->False,
+              FrameMargins->0],
+             Alignment->Left,
+             BaselinePosition->Baseline,
+             FrameMargins->{{1, 1}, {0, 0}}],
+            Frame->{{
+               RGBColor[
+               0.8313725490196079, 0.8470588235294118, 0.8509803921568627, 
+                0.5], False}, {False, False}}]}
+         },
+         BaselinePosition->{1, 1},
+         GridBoxAlignment->{"Columns" -> {{Left}}, "Rows" -> {{Baseline}}},
+         GridBoxItemSize->{
+          "Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}},
+         GridBoxSpacings->{"Columns" -> {{0}}, "Rows" -> {{0}}}], True->
+        GridBox[{
+          {GridBox[{
+             {
+              PaneBox[GridBox[{
+                 {
+                  StyleBox[
+                   StyleBox[
+                    AdjustmentBox["\<\"[\[FilledSmallSquare]]\"\>",
+                    BoxBaselineShift->-0.25,
+                    BoxMargins->{{0, 0}, {-1, -1}}], "ResourceFunctionIcon",
+                    
+                    FontColor->RGBColor[
+                    0.8745098039215686, 0.2784313725490196, 
+                    0.03137254901960784]],
+                   ShowStringCharacters->False,
+                   FontFamily->"Source Sans Pro Black",
+                   FontSize->0.6538461538461539 Inherited,
+                   FontWeight->"Heavy",
+                   PrivateFontOptions->{"OperatorSubstitution"->False}], 
+                  StyleBox[
+                   RowBox[{
+                    StyleBox["SpinShow", "ResourceFunctionLabel"], " "}],
+                   ShowAutoStyles->False,
+                   ShowStringCharacters->False,
+                   FontSize->Rational[12, 13] Inherited,
+                   FontColor->GrayLevel[0.1]]}
+                },
+                GridBoxSpacings->{"Columns" -> {{0.25}}}],
+               Alignment->Left,
+               BaseStyle->{LineSpacing -> {0, 0}, LineBreakWithin -> False},
+               BaselinePosition->Baseline,
+               FrameMargins->{{3, 0}, {0, 0}}], 
+              ItemBox[
+               PaneBox[
+                TogglerBox[Dynamic[Typeset`open], {True->
+                 
+                 DynamicBox[FEPrivate`FrontEndResource[
+                  "FEBitmaps", "IconizeCloser"]], False->
+                 
+                 DynamicBox[FEPrivate`FrontEndResource[
+                  "FEBitmaps", "IconizeOpener"]]},
+                 Appearance->None,
+                 BaselinePosition->Baseline,
+                 ContentPadding->False,
+                 FrameMargins->0],
+                Alignment->Left,
+                BaselinePosition->Baseline,
+                FrameMargins->{{1, 1}, {0, 0}}],
+               Frame->{{
+                  RGBColor[
+                  0.8313725490196079, 0.8470588235294118, 0.8509803921568627, 
+                   0.5], False}, {False, False}}]}
+            },
+            BaselinePosition->{1, 1},
+            GridBoxAlignment->{"Columns" -> {{Left}}, "Rows" -> {{Baseline}}},
+            
+            
+            GridBoxItemSize->{
+             "Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}},
+            GridBoxSpacings->{"Columns" -> {{0}}, "Rows" -> {{0}}}]},
+          {
+           StyleBox[
+            PaneBox[GridBox[{
+               {
+                RowBox[{
+                 TagBox["\<\"Version (latest): \"\>",
+                  "IconizedLabel"], " ", 
+                 TagBox["\<\"1.0.1\"\>",
+                  "IconizedItem"]}]},
+               {
+                TagBox[
+                 
+                 TemplateBox[{
+                  "\"Documentation \[RightGuillemet]\"", 
+                   "https://resources.wolframcloud.com/FunctionRepository/\
+resources/005526b5-8284-47cd-a5f7-9a6c46efd298/"},
+                  "HyperlinkURL"],
+                 "IconizedItem"]}
+              },
+              DefaultBaseStyle->"Column",
+              GridBoxAlignment->{"Columns" -> {{Left}}},
+              
+              GridBoxItemSize->{
+               "Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}],
+             Alignment->Left,
+             BaselinePosition->Baseline,
+             FrameMargins->{{5, 4}, {0, 4}}], "DialogStyle",
+            FontFamily->"Roboto",
+            FontSize->11]}
+         },
+         BaselinePosition->{1, 1},
+         GridBoxAlignment->{"Columns" -> {{Left}}, "Rows" -> {{Baseline}}},
+         GridBoxDividers->{"Columns" -> {{None}}, "Rows" -> {False, {
+              GrayLevel[0.8]}, False}},
+         GridBoxItemSize->{
+          "Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}]}, Dynamic[
+        Typeset`open],
+        BaselinePosition->Baseline,
+        ImageSize->Automatic],
+       Background->RGBColor[
+        0.9686274509803922, 0.9764705882352941, 0.984313725490196],
+       BaselinePosition->Baseline,
+       DefaultBaseStyle->{},
+       FrameMargins->{{0, 0}, {1, 0}},
+       FrameStyle->RGBColor[
+        0.8313725490196079, 0.8470588235294118, 0.8509803921568627],
+       RoundingRadius->4]],
+     #& ,
+     TagBoxNote->" "],
+    {"FunctionResourceBox", 
+     RGBColor[0.8745098039215686, 0.2784313725490196, 0.03137254901960784], 
+     "SpinShow"},
+    TagBoxNote->"FunctionResourceBox"],
+   ResourceFunction["SpinShow"],
+   Selectable->False], "[", "\t  ", 
+  RowBox[{"Graphics3D", "[", "\[IndentingNewLine]", "\t    ", 
+   RowBox[{
+    RowBox[{"Table", "[", "\[IndentingNewLine]", "\t      ", 
+     RowBox[{
+      RowBox[{"{", "\[IndentingNewLine]", "\t        ", 
+       RowBox[{"Blue", ",", 
+        RowBox[{"Sphere", "[", 
+         RowBox[{
+          RowBox[{"{", 
+           RowBox[{"0", ",", "0", ",", "0"}], "}"}], ",", "0.2"}], "]"}], ",",
+         "                  ", 
+        RowBox[{"(*", " ", 
+         RowBox[{"Sodium", " ", "at", " ", "corners"}], " ", "*)"}], 
+        "\[IndentingNewLine]", "                 ", "Blue", ",", 
+        RowBox[{"Sphere", "[", 
+         RowBox[{
+          RowBox[{"{", 
+           RowBox[{"2", ",", "0", ",", "0"}], "}"}], ",", "0.2"}], "]"}], ",",
+         "                  ", 
+        RowBox[{"(*", " ", 
+         RowBox[{"Sodium", " ", "at", " ", "corners"}], " ", "*)"}], 
+        "\[IndentingNewLine]", "                 ", "Blue", ",", 
+        RowBox[{"Sphere", "[", 
+         RowBox[{
+          RowBox[{"{", 
+           RowBox[{"0", ",", "2", ",", "0"}], "}"}], ",", "0.2"}], "]"}], ",",
+         "                  ", 
+        RowBox[{"(*", " ", 
+         RowBox[{"Sodium", " ", "at", " ", "corners"}], " ", "*)"}], 
+        "\[IndentingNewLine]", "                 ", "Blue", ",", 
+        RowBox[{"Sphere", "[", 
+         RowBox[{
+          RowBox[{"{", 
+           RowBox[{"0", ",", "0", ",", "2"}], "}"}], ",", "0.2"}], "]"}], ",",
+         "                  ", 
+        RowBox[{"(*", " ", 
+         RowBox[{"Sodium", " ", "at", " ", "corners"}], " ", "*)"}], 
+        "\[IndentingNewLine]", "                 ", "Blue", ",", 
+        RowBox[{"Sphere", "[", 
+         RowBox[{
+          RowBox[{"{", 
+           RowBox[{"0", ",", "2", ",", "2"}], "}"}], ",", "0.2"}], "]"}], ",",
+         "                  ", 
+        RowBox[{"(*", " ", 
+         RowBox[{"Sodium", " ", "at", " ", "corners"}], " ", "*)"}], 
+        "\[IndentingNewLine]", "                 ", "Blue", ",", 
+        RowBox[{"Sphere", "[", 
+         RowBox[{
+          RowBox[{"{", 
+           RowBox[{"2", ",", "2", ",", "0"}], "}"}], ",", "0.2"}], "]"}], ",",
+         "                  ", 
+        RowBox[{"(*", " ", 
+         RowBox[{"Sodium", " ", "at", " ", "corners"}], " ", "*)"}], 
+        "\[IndentingNewLine]", "                 ", "Blue", ",", 
+        RowBox[{"Sphere", "[", 
+         RowBox[{
+          RowBox[{"{", 
+           RowBox[{"2", ",", "0", ",", "2"}], "}"}], ",", "0.2"}], "]"}], ",",
+         "                  ", 
+        RowBox[{"(*", " ", 
+         RowBox[{"Sodium", " ", "at", " ", "corners"}], " ", "*)"}], 
+        "\[IndentingNewLine]", "                 ", "Blue", ",", 
+        RowBox[{"Sphere", "[", 
+         RowBox[{
+          RowBox[{"{", 
+           RowBox[{"2", ",", "2", ",", "2"}], "}"}], ",", "0.2"}], "]"}], ",",
+         "                  ", 
+        RowBox[{"(*", " ", 
+         RowBox[{"Sodium", " ", "at", " ", "corners"}], " ", "*)"}], 
+        "\[IndentingNewLine]", "                 ", "Blue", ",", 
+        RowBox[{"Sphere", "[", 
+         RowBox[{
+          RowBox[{"{", 
+           RowBox[{"1", ",", "1", ",", "0"}], "}"}], ",", "0.2"}], "]"}], ",",
+         "                  ", 
+        RowBox[{"(*", " ", 
+         RowBox[{"Sodium", " ", "at", " ", "corners"}], " ", "*)"}], 
+        "\[IndentingNewLine]", "                 ", "Blue", ",", 
+        RowBox[{"Sphere", "[", 
+         RowBox[{
+          RowBox[{"{", 
+           RowBox[{"1", ",", "0", ",", "1"}], "}"}], ",", "0.2"}], "]"}], ",",
+         "                  ", 
+        RowBox[{"(*", " ", 
+         RowBox[{"Sodium", " ", "at", " ", "corners"}], " ", "*)"}], 
+        "\[IndentingNewLine]", "                 ", "Blue", ",", 
+        RowBox[{"Sphere", "[", 
+         RowBox[{
+          RowBox[{"{", 
+           RowBox[{"0", ",", "1", ",", "1"}], "}"}], ",", "0.2"}], "]"}], ",",
+         "                  ", 
+        RowBox[{"(*", " ", 
+         RowBox[{"Sodium", " ", "at", " ", "corners"}], " ", "*)"}], 
+        "\[IndentingNewLine]", "                 ", "Blue", ",", 
+        RowBox[{"Sphere", "[", 
+         RowBox[{
+          RowBox[{"{", 
+           RowBox[{"2", ",", "1", ",", "1"}], "}"}], ",", "0.2"}], "]"}], ",",
+         "                  ", 
+        RowBox[{"(*", " ", 
+         RowBox[{"Sodium", " ", "at", " ", "corners"}], " ", "*)"}], 
+        "\[IndentingNewLine]", "                 ", "Blue", ",", 
+        RowBox[{"Sphere", "[", 
+         RowBox[{
+          RowBox[{"{", 
+           RowBox[{"1", ",", "2", ",", "1"}], "}"}], ",", "0.2"}], "]"}], ",",
+         "                  ", 
+        RowBox[{"(*", " ", 
+         RowBox[{"Sodium", " ", "at", " ", "corners"}], " ", "*)"}], 
+        "\[IndentingNewLine]", "                 ", "Blue", ",", 
+        RowBox[{"Sphere", "[", 
+         RowBox[{
+          RowBox[{"{", 
+           RowBox[{"1", ",", "1", ",", "2"}], "}"}], ",", "0.2"}], "]"}], ",",
+         "                  ", 
+        RowBox[{"(*", " ", 
+         RowBox[{"Sodium", " ", "at", " ", "corners"}], " ", "*)"}], 
+        "\[IndentingNewLine]", "                ", "Yellow", ",", 
+        RowBox[{"Sphere", "[", 
+         RowBox[{
+          RowBox[{"{", 
+           RowBox[{"1", ",", "0", ",", "0"}], "}"}], ",", "0.1"}], "]"}], ",", 
+        RowBox[{"(*", " ", 
+         RowBox[{"Chloride", " ", "at", " ", "face", " ", "centers"}], " ", 
+         "*)"}], "\[IndentingNewLine]", "                ", "Yellow", ",", 
+        RowBox[{"Sphere", "[", 
+         RowBox[{
+          RowBox[{"{", 
+           RowBox[{"0", ",", "1", ",", "0"}], "}"}], ",", "0.1"}], "]"}], ",", 
+        RowBox[{"(*", " ", 
+         RowBox[{"Chloride", " ", "at", " ", "face", " ", "centers"}], " ", 
+         "*)"}], "\[IndentingNewLine]", "                ", "Yellow", ",", 
+        RowBox[{"Sphere", "[", 
+         RowBox[{
+          RowBox[{"{", 
+           RowBox[{"0", ",", "0", ",", "1"}], "}"}], ",", "0.1"}], "]"}], ",", 
+        RowBox[{"(*", " ", 
+         RowBox[{"Chloride", " ", "at", " ", "face", " ", "centers"}], " ", 
+         "*)"}], "\[IndentingNewLine]", "                ", "Yellow", ",", 
+        RowBox[{"Sphere", "[", 
+         RowBox[{
+          RowBox[{"{", 
+           RowBox[{"1", ",", "2", ",", "0"}], "}"}], ",", "0.1"}], "]"}], ",", 
+        RowBox[{"(*", " ", 
+         RowBox[{"Chloride", " ", "at", " ", "face", " ", "centers"}], " ", 
+         "*)"}], "\[IndentingNewLine]", "                ", "Yellow", ",", 
+        RowBox[{"Sphere", "[", 
+         RowBox[{
+          RowBox[{"{", 
+           RowBox[{"0", ",", "1", ",", "2"}], "}"}], ",", "0.1"}], "]"}], ",", 
+        RowBox[{"(*", " ", 
+         RowBox[{"Chloride", " ", "at", " ", "face", " ", "centers"}], " ", 
+         "*)"}], "\[IndentingNewLine]", "                ", "Yellow", ",", 
+        RowBox[{"Sphere", "[", 
+         RowBox[{
+          RowBox[{"{", 
+           RowBox[{"0", ",", "2", ",", "1"}], "}"}], ",", "0.1"}], "]"}], ",", 
+        RowBox[{"(*", " ", 
+         RowBox[{"Chloride", " ", "at", " ", "face", " ", "centers"}], " ", 
+         "*)"}], "\[IndentingNewLine]", "                ", "Yellow", ",", 
+        RowBox[{"Sphere", "[", 
+         RowBox[{
+          RowBox[{"{", 
+           RowBox[{"1", ",", "1", ",", "1"}], "}"}], ",", "0.1"}], "]"}], ",", 
+        RowBox[{"(*", " ", 
+         RowBox[{"Chloride", " ", "at", " ", "face", " ", "centers"}], " ", 
+         "*)"}], "\[IndentingNewLine]", "                ", "Yellow", ",", 
+        RowBox[{"Sphere", "[", 
+         RowBox[{
+          RowBox[{"{", 
+           RowBox[{"2", ",", "1", ",", "0"}], "}"}], ",", "0.1"}], "]"}], ",", 
+        RowBox[{"(*", " ", 
+         RowBox[{"Chloride", " ", "at", " ", "face", " ", "centers"}], " ", 
+         "*)"}], "\[IndentingNewLine]", "                ", "Yellow", ",", 
+        RowBox[{"Sphere", "[", 
+         RowBox[{
+          RowBox[{"{", 
+           RowBox[{"2", ",", "0", ",", "1"}], "}"}], ",", "0.1"}], "]"}], ",", 
+        RowBox[{"(*", " ", 
+         RowBox[{"Chloride", " ", "at", " ", "face", " ", "centers"}], " ", 
+         "*)"}], "\[IndentingNewLine]", "                ", "Yellow", ",", 
+        RowBox[{"Sphere", "[", 
+         RowBox[{
+          RowBox[{"{", 
+           RowBox[{"1", ",", "0", ",", "2"}], "}"}], ",", "0.1"}], "]"}], ",", 
+        RowBox[{"(*", " ", 
+         RowBox[{"Chloride", " ", "at", " ", "face", " ", "centers"}], " ", 
+         "*)"}], "\[IndentingNewLine]", "                ", "Yellow", ",", 
+        RowBox[{"Sphere", "[", 
+         RowBox[{
+          RowBox[{"{", 
+           RowBox[{"2", ",", "1", ",", "2"}], "}"}], ",", "0.1"}], "]"}], ",", 
+        RowBox[{"(*", " ", 
+         RowBox[{"Chloride", " ", "at", " ", "face", " ", "centers"}], " ", 
+         "*)"}], "\[IndentingNewLine]", "                ", "Yellow", ",", 
+        RowBox[{"Sphere", "[", 
+         RowBox[{
+          RowBox[{"{", 
+           RowBox[{"2", ",", "2", ",", "1"}], "}"}], ",", "0.1"}], "]"}], ",", 
+        RowBox[{"(*", " ", 
+         RowBox[{"Chloride", " ", "at", " ", "face", " ", "centers"}], " ", 
+         "*)"}], "\[IndentingNewLine]", "                ", "Yellow", ",", 
+        RowBox[{"Sphere", "[", 
+         RowBox[{
+          RowBox[{"{", 
+           RowBox[{"1", ",", "2", ",", "2"}], "}"}], ",", "0.1"}], "]"}], ",", 
+        RowBox[{"(*", " ", 
+         RowBox[{"Chloride", " ", "at", " ", "face", " ", "centers"}], " ", 
+         "*)"}], "\[IndentingNewLine]", "  ", "Black", ",", 
+        RowBox[{"Line", "[", 
+         RowBox[{"{", 
+          RowBox[{
+           RowBox[{"{", 
+            RowBox[{"x", ",", "y", ",", "z"}], "}"}], ",", 
+           RowBox[{"{", 
+            RowBox[{
+             RowBox[{"x", "+", "1"}], ",", "y", ",", "z"}], "}"}], ",", 
+           RowBox[{"{", 
+            RowBox[{
+             RowBox[{"x", "+", "1"}], ",", 
+             RowBox[{"y", "+", "1"}], ",", "z"}], "}"}], ",", 
+           RowBox[{"{", 
+            RowBox[{"x", ",", 
+             RowBox[{"y", "+", "1"}], ",", "z"}], "}"}], ",", 
+           RowBox[{"{", 
+            RowBox[{"x", ",", "y", ",", "z"}], "}"}]}], "}"}], "]"}], ",", 
+        "\[IndentingNewLine]", "        ", "Black", ",", 
+        RowBox[{"Line", "[", 
+         RowBox[{"{", 
+          RowBox[{
+           RowBox[{"{", 
+            RowBox[{"x", ",", "y", ",", "z"}], "}"}], ",", 
+           RowBox[{"{", 
+            RowBox[{"x", ",", "y", ",", 
+             RowBox[{"z", "+", "1"}]}], "}"}], ",", 
+           RowBox[{"{", 
+            RowBox[{
+             RowBox[{"x", "+", "1"}], ",", "y", ",", 
+             RowBox[{"z", "+", "1"}]}], "}"}], ",", 
+           RowBox[{"{", 
+            RowBox[{
+             RowBox[{"x", "+", "1"}], ",", 
+             RowBox[{"y", "+", "1"}], ",", 
+             RowBox[{"z", "+", "1"}]}], "}"}], ",", 
+           RowBox[{"{", 
+            RowBox[{"x", ",", 
+             RowBox[{"y", "+", "1"}], ",", 
+             RowBox[{"z", "+", "1"}]}], "}"}], ",", 
+           RowBox[{"{", 
+            RowBox[{"x", ",", "y", ",", 
+             RowBox[{"z", "+", "1"}]}], "}"}]}], "}"}], "]"}], ",", 
+        "\[IndentingNewLine]", "        ", "Black", ",", 
+        RowBox[{"Line", "[", 
+         RowBox[{"{", 
+          RowBox[{
+           RowBox[{"{", 
+            RowBox[{
+             RowBox[{"x", "+", "1"}], ",", "y", ",", "z"}], "}"}], ",", 
+           RowBox[{"{", 
+            RowBox[{
+             RowBox[{"x", "+", "1"}], ",", "y", ",", 
+             RowBox[{"z", "+", "1"}]}], "}"}]}], "}"}], "]"}], ",", 
+        "\[IndentingNewLine]", "        ", "Black", ",", 
+        RowBox[{"Line", "[", 
+         RowBox[{"{", 
+          RowBox[{
+           RowBox[{"{", 
+            RowBox[{"x", ",", 
+             RowBox[{"y", "+", "1"}], ",", "z"}], "}"}], ",", 
+           RowBox[{"{", 
+            RowBox[{"x", ",", 
+             RowBox[{"y", "+", "1"}], ",", 
+             RowBox[{"z", "+", "1"}]}], "}"}]}], "}"}], "]"}], ",", 
+        "\[IndentingNewLine]", "        ", "Black", ",", 
+        RowBox[{"Line", "[", 
+         RowBox[{"{", 
+          RowBox[{
+           RowBox[{"{", 
+            RowBox[{
+             RowBox[{"x", "+", "1"}], ",", 
+             RowBox[{"y", "+", "1"}], ",", "z"}], "}"}], ",", 
+           RowBox[{"{", 
+            RowBox[{
+             RowBox[{"x", "+", "1"}], ",", 
+             RowBox[{"y", "+", "1"}], ",", 
+             RowBox[{"z", "+", "1"}]}], "}"}]}], "}"}], "]"}]}], 
+       "\[IndentingNewLine]", "      ", "}"}], ",", "\[IndentingNewLine]", 
+      "      ", 
+      RowBox[{"{", 
+       RowBox[{"x", ",", "0", ",", "1"}], "}"}], ",", 
+      RowBox[{"{", 
+       RowBox[{"y", ",", "0", ",", "1"}], "}"}], ",", 
+      RowBox[{"{", 
+       RowBox[{"z", ",", "0", ",", "1"}], "}"}]}], "\[IndentingNewLine]", 
+     "    ", "]"}], ",", "\[IndentingNewLine]", "\t    ", 
+    RowBox[{"Boxed", "->", "False"}], ",", 
+    RowBox[{"Axes", "->", "False"}], ",", "\[IndentingNewLine]", "\t    ", 
+    RowBox[{"PlotRange", "->", 
+     RowBox[{"{", 
+      RowBox[{
+       RowBox[{"{", 
+        RowBox[{
+         RowBox[{"-", "0.5"}], ",", "2.5"}], "}"}], ",", 
+       RowBox[{"{", 
+        RowBox[{
+         RowBox[{"-", "0.5"}], ",", "2.5"}], "}"}], ",", 
+       RowBox[{"{", 
+        RowBox[{
+         RowBox[{"-", "0.5"}], ",", "2.5"}], "}"}]}], "}"}]}], ",", 
+    RowBox[{"AxesOrigin", "->", 
+     RowBox[{"{", 
+      RowBox[{"0", ",", "0", ",", "0"}], "}"}]}]}], "\[IndentingNewLine]", 
+   "\t  ", "]"}], "\[IndentingNewLine]", "]"}]], "Input",
+ CellChangeTimes->{{3.9547476417875547`*^9, 3.9547476465777903`*^9}, {
+  3.9547507682862883`*^9, 3.954750793020341*^9}},
+ CellLabel->"In[11]:=",ExpressionUUID->"fb800aa0-eb51-47ba-b507-c8529c7fef80"],
+
+Cell[BoxData[
+ Graphics3DBox[{{{{
+      {RGBColor[0, 0, 1], SphereBox[{0, 0, 0}, 0.2]}, 
+      {RGBColor[0, 0, 1], SphereBox[{2, 0, 0}, 0.2]}, 
+      {RGBColor[0, 0, 1], SphereBox[{0, 2, 0}, 0.2]}, 
+      {RGBColor[0, 0, 1], SphereBox[{0, 0, 2}, 0.2]}, 
+      {RGBColor[0, 0, 1], SphereBox[{0, 2, 2}, 0.2]}, 
+      {RGBColor[0, 0, 1], SphereBox[{2, 2, 0}, 0.2]}, 
+      {RGBColor[0, 0, 1], SphereBox[{2, 0, 2}, 0.2]}, 
+      {RGBColor[0, 0, 1], SphereBox[{2, 2, 2}, 0.2]}, 
+      {RGBColor[0, 0, 1], SphereBox[{1, 1, 0}, 0.2]}, 
+      {RGBColor[0, 0, 1], SphereBox[{1, 0, 1}, 0.2]}, 
+      {RGBColor[0, 0, 1], SphereBox[{0, 1, 1}, 0.2]}, 
+      {RGBColor[0, 0, 1], SphereBox[{2, 1, 1}, 0.2]}, 
+      {RGBColor[0, 0, 1], SphereBox[{1, 2, 1}, 0.2]}, 
+      {RGBColor[0, 0, 1], SphereBox[{1, 1, 2}, 0.2]}, 
+      {RGBColor[1, 1, 0], SphereBox[{1, 0, 0}, 0.1]}, 
+      {RGBColor[1, 1, 0], SphereBox[{0, 1, 0}, 0.1]}, 
+      {RGBColor[1, 1, 0], SphereBox[{0, 0, 1}, 0.1]}, 
+      {RGBColor[1, 1, 0], SphereBox[{1, 2, 0}, 0.1]}, 
+      {RGBColor[1, 1, 0], SphereBox[{0, 1, 2}, 0.1]}, 
+      {RGBColor[1, 1, 0], SphereBox[{0, 2, 1}, 0.1]}, 
+      {RGBColor[1, 1, 0], SphereBox[{1, 1, 1}, 0.1]}, 
+      {RGBColor[1, 1, 0], SphereBox[{2, 1, 0}, 0.1]}, 
+      {RGBColor[1, 1, 0], SphereBox[{2, 0, 1}, 0.1]}, 
+      {RGBColor[1, 1, 0], SphereBox[{1, 0, 2}, 0.1]}, 
+      {RGBColor[1, 1, 0], SphereBox[{2, 1, 2}, 0.1]}, 
+      {RGBColor[1, 1, 0], SphereBox[{2, 2, 1}, 0.1]}, 
+      {RGBColor[1, 1, 0], SphereBox[{1, 2, 2}, 0.1]}, 
+      {GrayLevel[0], 
+       Line3DBox[{{0, 0, 0}, {1, 0, 0}, {1, 1, 0}, {0, 1, 0}, {0, 0, 0}}]}, 
+      {GrayLevel[0], 
+       Line3DBox[{{0, 0, 0}, {0, 0, 1}, {1, 0, 1}, {1, 1, 1}, {0, 1, 1}, {0, 
+        0, 1}}]}, 
+      {GrayLevel[0], Line3DBox[{{1, 0, 0}, {1, 0, 1}}]}, 
+      {GrayLevel[0], Line3DBox[{{0, 1, 0}, {0, 1, 1}}]}, 
+      {GrayLevel[0], Line3DBox[{{1, 1, 0}, {1, 1, 1}}]}}, {
+      {RGBColor[0, 0, 1], SphereBox[{0, 0, 0}, 0.2]}, 
+      {RGBColor[0, 0, 1], SphereBox[{2, 0, 0}, 0.2]}, 
+      {RGBColor[0, 0, 1], SphereBox[{0, 2, 0}, 0.2]}, 
+      {RGBColor[0, 0, 1], SphereBox[{0, 0, 2}, 0.2]}, 
+      {RGBColor[0, 0, 1], SphereBox[{0, 2, 2}, 0.2]}, 
+      {RGBColor[0, 0, 1], SphereBox[{2, 2, 0}, 0.2]}, 
+      {RGBColor[0, 0, 1], SphereBox[{2, 0, 2}, 0.2]}, 
+      {RGBColor[0, 0, 1], SphereBox[{2, 2, 2}, 0.2]}, 
+      {RGBColor[0, 0, 1], SphereBox[{1, 1, 0}, 0.2]}, 
+      {RGBColor[0, 0, 1], SphereBox[{1, 0, 1}, 0.2]}, 
+      {RGBColor[0, 0, 1], SphereBox[{0, 1, 1}, 0.2]}, 
+      {RGBColor[0, 0, 1], SphereBox[{2, 1, 1}, 0.2]}, 
+      {RGBColor[0, 0, 1], SphereBox[{1, 2, 1}, 0.2]}, 
+      {RGBColor[0, 0, 1], SphereBox[{1, 1, 2}, 0.2]}, 
+      {RGBColor[1, 1, 0], SphereBox[{1, 0, 0}, 0.1]}, 
+      {RGBColor[1, 1, 0], SphereBox[{0, 1, 0}, 0.1]}, 
+      {RGBColor[1, 1, 0], SphereBox[{0, 0, 1}, 0.1]}, 
+      {RGBColor[1, 1, 0], SphereBox[{1, 2, 0}, 0.1]}, 
+      {RGBColor[1, 1, 0], SphereBox[{0, 1, 2}, 0.1]}, 
+      {RGBColor[1, 1, 0], SphereBox[{0, 2, 1}, 0.1]}, 
+      {RGBColor[1, 1, 0], SphereBox[{1, 1, 1}, 0.1]}, 
+      {RGBColor[1, 1, 0], SphereBox[{2, 1, 0}, 0.1]}, 
+      {RGBColor[1, 1, 0], SphereBox[{2, 0, 1}, 0.1]}, 
+      {RGBColor[1, 1, 0], SphereBox[{1, 0, 2}, 0.1]}, 
+      {RGBColor[1, 1, 0], SphereBox[{2, 1, 2}, 0.1]}, 
+      {RGBColor[1, 1, 0], SphereBox[{2, 2, 1}, 0.1]}, 
+      {RGBColor[1, 1, 0], SphereBox[{1, 2, 2}, 0.1]}, 
+      {GrayLevel[0], 
+       Line3DBox[{{0, 0, 1}, {1, 0, 1}, {1, 1, 1}, {0, 1, 1}, {0, 0, 1}}]}, 
+      {GrayLevel[0], 
+       Line3DBox[{{0, 0, 1}, {0, 0, 2}, {1, 0, 2}, {1, 1, 2}, {0, 1, 2}, {0, 
+        0, 2}}]}, 
+      {GrayLevel[0], Line3DBox[{{1, 0, 1}, {1, 0, 2}}]}, 
+      {GrayLevel[0], Line3DBox[{{0, 1, 1}, {0, 1, 2}}]}, 
+      {GrayLevel[0], Line3DBox[{{1, 1, 1}, {1, 1, 2}}]}}}, {{
+      {RGBColor[0, 0, 1], SphereBox[{0, 0, 0}, 0.2]}, 
+      {RGBColor[0, 0, 1], SphereBox[{2, 0, 0}, 0.2]}, 
+      {RGBColor[0, 0, 1], SphereBox[{0, 2, 0}, 0.2]}, 
+      {RGBColor[0, 0, 1], SphereBox[{0, 0, 2}, 0.2]}, 
+      {RGBColor[0, 0, 1], SphereBox[{0, 2, 2}, 0.2]}, 
+      {RGBColor[0, 0, 1], SphereBox[{2, 2, 0}, 0.2]}, 
+      {RGBColor[0, 0, 1], SphereBox[{2, 0, 2}, 0.2]}, 
+      {RGBColor[0, 0, 1], SphereBox[{2, 2, 2}, 0.2]}, 
+      {RGBColor[0, 0, 1], SphereBox[{1, 1, 0}, 0.2]}, 
+      {RGBColor[0, 0, 1], SphereBox[{1, 0, 1}, 0.2]}, 
+      {RGBColor[0, 0, 1], SphereBox[{0, 1, 1}, 0.2]}, 
+      {RGBColor[0, 0, 1], SphereBox[{2, 1, 1}, 0.2]}, 
+      {RGBColor[0, 0, 1], SphereBox[{1, 2, 1}, 0.2]}, 
+      {RGBColor[0, 0, 1], SphereBox[{1, 1, 2}, 0.2]}, 
+      {RGBColor[1, 1, 0], SphereBox[{1, 0, 0}, 0.1]}, 
+      {RGBColor[1, 1, 0], SphereBox[{0, 1, 0}, 0.1]}, 
+      {RGBColor[1, 1, 0], SphereBox[{0, 0, 1}, 0.1]}, 
+      {RGBColor[1, 1, 0], SphereBox[{1, 2, 0}, 0.1]}, 
+      {RGBColor[1, 1, 0], SphereBox[{0, 1, 2}, 0.1]}, 
+      {RGBColor[1, 1, 0], SphereBox[{0, 2, 1}, 0.1]}, 
+      {RGBColor[1, 1, 0], SphereBox[{1, 1, 1}, 0.1]}, 
+      {RGBColor[1, 1, 0], SphereBox[{2, 1, 0}, 0.1]}, 
+      {RGBColor[1, 1, 0], SphereBox[{2, 0, 1}, 0.1]}, 
+      {RGBColor[1, 1, 0], SphereBox[{1, 0, 2}, 0.1]}, 
+      {RGBColor[1, 1, 0], SphereBox[{2, 1, 2}, 0.1]}, 
+      {RGBColor[1, 1, 0], SphereBox[{2, 2, 1}, 0.1]}, 
+      {RGBColor[1, 1, 0], SphereBox[{1, 2, 2}, 0.1]}, 
+      {GrayLevel[0], 
+       Line3DBox[{{0, 1, 0}, {1, 1, 0}, {1, 2, 0}, {0, 2, 0}, {0, 1, 0}}]}, 
+      {GrayLevel[0], 
+       Line3DBox[{{0, 1, 0}, {0, 1, 1}, {1, 1, 1}, {1, 2, 1}, {0, 2, 1}, {0, 
+        1, 1}}]}, 
+      {GrayLevel[0], Line3DBox[{{1, 1, 0}, {1, 1, 1}}]}, 
+      {GrayLevel[0], Line3DBox[{{0, 2, 0}, {0, 2, 1}}]}, 
+      {GrayLevel[0], Line3DBox[{{1, 2, 0}, {1, 2, 1}}]}}, {
+      {RGBColor[0, 0, 1], SphereBox[{0, 0, 0}, 0.2]}, 
+      {RGBColor[0, 0, 1], SphereBox[{2, 0, 0}, 0.2]}, 
+      {RGBColor[0, 0, 1], SphereBox[{0, 2, 0}, 0.2]}, 
+      {RGBColor[0, 0, 1], SphereBox[{0, 0, 2}, 0.2]}, 
+      {RGBColor[0, 0, 1], SphereBox[{0, 2, 2}, 0.2]}, 
+      {RGBColor[0, 0, 1], SphereBox[{2, 2, 0}, 0.2]}, 
+      {RGBColor[0, 0, 1], SphereBox[{2, 0, 2}, 0.2]}, 
+      {RGBColor[0, 0, 1], SphereBox[{2, 2, 2}, 0.2]}, 
+      {RGBColor[0, 0, 1], SphereBox[{1, 1, 0}, 0.2]}, 
+      {RGBColor[0, 0, 1], SphereBox[{1, 0, 1}, 0.2]}, 
+      {RGBColor[0, 0, 1], SphereBox[{0, 1, 1}, 0.2]}, 
+      {RGBColor[0, 0, 1], SphereBox[{2, 1, 1}, 0.2]}, 
+      {RGBColor[0, 0, 1], SphereBox[{1, 2, 1}, 0.2]}, 
+      {RGBColor[0, 0, 1], SphereBox[{1, 1, 2}, 0.2]}, 
+      {RGBColor[1, 1, 0], SphereBox[{1, 0, 0}, 0.1]}, 
+      {RGBColor[1, 1, 0], SphereBox[{0, 1, 0}, 0.1]}, 
+      {RGBColor[1, 1, 0], SphereBox[{0, 0, 1}, 0.1]}, 
+      {RGBColor[1, 1, 0], SphereBox[{1, 2, 0}, 0.1]}, 
+      {RGBColor[1, 1, 0], SphereBox[{0, 1, 2}, 0.1]}, 
+      {RGBColor[1, 1, 0], SphereBox[{0, 2, 1}, 0.1]}, 
+      {RGBColor[1, 1, 0], SphereBox[{1, 1, 1}, 0.1]}, 
+      {RGBColor[1, 1, 0], SphereBox[{2, 1, 0}, 0.1]}, 
+      {RGBColor[1, 1, 0], SphereBox[{2, 0, 1}, 0.1]}, 
+      {RGBColor[1, 1, 0], SphereBox[{1, 0, 2}, 0.1]}, 
+      {RGBColor[1, 1, 0], SphereBox[{2, 1, 2}, 0.1]}, 
+      {RGBColor[1, 1, 0], SphereBox[{2, 2, 1}, 0.1]}, 
+      {RGBColor[1, 1, 0], SphereBox[{1, 2, 2}, 0.1]}, 
+      {GrayLevel[0], 
+       Line3DBox[{{0, 1, 1}, {1, 1, 1}, {1, 2, 1}, {0, 2, 1}, {0, 1, 1}}]}, 
+      {GrayLevel[0], 
+       Line3DBox[{{0, 1, 1}, {0, 1, 2}, {1, 1, 2}, {1, 2, 2}, {0, 2, 2}, {0, 
+        1, 2}}]}, 
+      {GrayLevel[0], Line3DBox[{{1, 1, 1}, {1, 1, 2}}]}, 
+      {GrayLevel[0], Line3DBox[{{0, 2, 1}, {0, 2, 2}}]}, 
+      {GrayLevel[0], Line3DBox[{{1, 2, 1}, {1, 2, 2}}]}}}}, {{{
+      {RGBColor[0, 0, 1], SphereBox[{0, 0, 0}, 0.2]}, 
+      {RGBColor[0, 0, 1], SphereBox[{2, 0, 0}, 0.2]}, 
+      {RGBColor[0, 0, 1], SphereBox[{0, 2, 0}, 0.2]}, 
+      {RGBColor[0, 0, 1], SphereBox[{0, 0, 2}, 0.2]}, 
+      {RGBColor[0, 0, 1], SphereBox[{0, 2, 2}, 0.2]}, 
+      {RGBColor[0, 0, 1], SphereBox[{2, 2, 0}, 0.2]}, 
+      {RGBColor[0, 0, 1], SphereBox[{2, 0, 2}, 0.2]}, 
+      {RGBColor[0, 0, 1], SphereBox[{2, 2, 2}, 0.2]}, 
+      {RGBColor[0, 0, 1], SphereBox[{1, 1, 0}, 0.2]}, 
+      {RGBColor[0, 0, 1], SphereBox[{1, 0, 1}, 0.2]}, 
+      {RGBColor[0, 0, 1], SphereBox[{0, 1, 1}, 0.2]}, 
+      {RGBColor[0, 0, 1], SphereBox[{2, 1, 1}, 0.2]}, 
+      {RGBColor[0, 0, 1], SphereBox[{1, 2, 1}, 0.2]}, 
+      {RGBColor[0, 0, 1], SphereBox[{1, 1, 2}, 0.2]}, 
+      {RGBColor[1, 1, 0], SphereBox[{1, 0, 0}, 0.1]}, 
+      {RGBColor[1, 1, 0], SphereBox[{0, 1, 0}, 0.1]}, 
+      {RGBColor[1, 1, 0], SphereBox[{0, 0, 1}, 0.1]}, 
+      {RGBColor[1, 1, 0], SphereBox[{1, 2, 0}, 0.1]}, 
+      {RGBColor[1, 1, 0], SphereBox[{0, 1, 2}, 0.1]}, 
+      {RGBColor[1, 1, 0], SphereBox[{0, 2, 1}, 0.1]}, 
+      {RGBColor[1, 1, 0], SphereBox[{1, 1, 1}, 0.1]}, 
+      {RGBColor[1, 1, 0], SphereBox[{2, 1, 0}, 0.1]}, 
+      {RGBColor[1, 1, 0], SphereBox[{2, 0, 1}, 0.1]}, 
+      {RGBColor[1, 1, 0], SphereBox[{1, 0, 2}, 0.1]}, 
+      {RGBColor[1, 1, 0], SphereBox[{2, 1, 2}, 0.1]}, 
+      {RGBColor[1, 1, 0], SphereBox[{2, 2, 1}, 0.1]}, 
+      {RGBColor[1, 1, 0], SphereBox[{1, 2, 2}, 0.1]}, 
+      {GrayLevel[0], 
+       Line3DBox[{{1, 0, 0}, {2, 0, 0}, {2, 1, 0}, {1, 1, 0}, {1, 0, 0}}]}, 
+      {GrayLevel[0], 
+       Line3DBox[{{1, 0, 0}, {1, 0, 1}, {2, 0, 1}, {2, 1, 1}, {1, 1, 1}, {1, 
+        0, 1}}]}, 
+      {GrayLevel[0], Line3DBox[{{2, 0, 0}, {2, 0, 1}}]}, 
+      {GrayLevel[0], Line3DBox[{{1, 1, 0}, {1, 1, 1}}]}, 
+      {GrayLevel[0], Line3DBox[{{2, 1, 0}, {2, 1, 1}}]}}, {
+      {RGBColor[0, 0, 1], SphereBox[{0, 0, 0}, 0.2]}, 
+      {RGBColor[0, 0, 1], SphereBox[{2, 0, 0}, 0.2]}, 
+      {RGBColor[0, 0, 1], SphereBox[{0, 2, 0}, 0.2]}, 
+      {RGBColor[0, 0, 1], SphereBox[{0, 0, 2}, 0.2]}, 
+      {RGBColor[0, 0, 1], SphereBox[{0, 2, 2}, 0.2]}, 
+      {RGBColor[0, 0, 1], SphereBox[{2, 2, 0}, 0.2]}, 
+      {RGBColor[0, 0, 1], SphereBox[{2, 0, 2}, 0.2]}, 
+      {RGBColor[0, 0, 1], SphereBox[{2, 2, 2}, 0.2]}, 
+      {RGBColor[0, 0, 1], SphereBox[{1, 1, 0}, 0.2]}, 
+      {RGBColor[0, 0, 1], SphereBox[{1, 0, 1}, 0.2]}, 
+      {RGBColor[0, 0, 1], SphereBox[{0, 1, 1}, 0.2]}, 
+      {RGBColor[0, 0, 1], SphereBox[{2, 1, 1}, 0.2]}, 
+      {RGBColor[0, 0, 1], SphereBox[{1, 2, 1}, 0.2]}, 
+      {RGBColor[0, 0, 1], SphereBox[{1, 1, 2}, 0.2]}, 
+      {RGBColor[1, 1, 0], SphereBox[{1, 0, 0}, 0.1]}, 
+      {RGBColor[1, 1, 0], SphereBox[{0, 1, 0}, 0.1]}, 
+      {RGBColor[1, 1, 0], SphereBox[{0, 0, 1}, 0.1]}, 
+      {RGBColor[1, 1, 0], SphereBox[{1, 2, 0}, 0.1]}, 
+      {RGBColor[1, 1, 0], SphereBox[{0, 1, 2}, 0.1]}, 
+      {RGBColor[1, 1, 0], SphereBox[{0, 2, 1}, 0.1]}, 
+      {RGBColor[1, 1, 0], SphereBox[{1, 1, 1}, 0.1]}, 
+      {RGBColor[1, 1, 0], SphereBox[{2, 1, 0}, 0.1]}, 
+      {RGBColor[1, 1, 0], SphereBox[{2, 0, 1}, 0.1]}, 
+      {RGBColor[1, 1, 0], SphereBox[{1, 0, 2}, 0.1]}, 
+      {RGBColor[1, 1, 0], SphereBox[{2, 1, 2}, 0.1]}, 
+      {RGBColor[1, 1, 0], SphereBox[{2, 2, 1}, 0.1]}, 
+      {RGBColor[1, 1, 0], SphereBox[{1, 2, 2}, 0.1]}, 
+      {GrayLevel[0], 
+       Line3DBox[{{1, 0, 1}, {2, 0, 1}, {2, 1, 1}, {1, 1, 1}, {1, 0, 1}}]}, 
+      {GrayLevel[0], 
+       Line3DBox[{{1, 0, 1}, {1, 0, 2}, {2, 0, 2}, {2, 1, 2}, {1, 1, 2}, {1, 
+        0, 2}}]}, 
+      {GrayLevel[0], Line3DBox[{{2, 0, 1}, {2, 0, 2}}]}, 
+      {GrayLevel[0], Line3DBox[{{1, 1, 1}, {1, 1, 2}}]}, 
+      {GrayLevel[0], Line3DBox[{{2, 1, 1}, {2, 1, 2}}]}}}, {{
+      {RGBColor[0, 0, 1], SphereBox[{0, 0, 0}, 0.2]}, 
+      {RGBColor[0, 0, 1], SphereBox[{2, 0, 0}, 0.2]}, 
+      {RGBColor[0, 0, 1], SphereBox[{0, 2, 0}, 0.2]}, 
+      {RGBColor[0, 0, 1], SphereBox[{0, 0, 2}, 0.2]}, 
+      {RGBColor[0, 0, 1], SphereBox[{0, 2, 2}, 0.2]}, 
+      {RGBColor[0, 0, 1], SphereBox[{2, 2, 0}, 0.2]}, 
+      {RGBColor[0, 0, 1], SphereBox[{2, 0, 2}, 0.2]}, 
+      {RGBColor[0, 0, 1], SphereBox[{2, 2, 2}, 0.2]}, 
+      {RGBColor[0, 0, 1], SphereBox[{1, 1, 0}, 0.2]}, 
+      {RGBColor[0, 0, 1], SphereBox[{1, 0, 1}, 0.2]}, 
+      {RGBColor[0, 0, 1], SphereBox[{0, 1, 1}, 0.2]}, 
+      {RGBColor[0, 0, 1], SphereBox[{2, 1, 1}, 0.2]}, 
+      {RGBColor[0, 0, 1], SphereBox[{1, 2, 1}, 0.2]}, 
+      {RGBColor[0, 0, 1], SphereBox[{1, 1, 2}, 0.2]}, 
+      {RGBColor[1, 1, 0], SphereBox[{1, 0, 0}, 0.1]}, 
+      {RGBColor[1, 1, 0], SphereBox[{0, 1, 0}, 0.1]}, 
+      {RGBColor[1, 1, 0], SphereBox[{0, 0, 1}, 0.1]}, 
+      {RGBColor[1, 1, 0], SphereBox[{1, 2, 0}, 0.1]}, 
+      {RGBColor[1, 1, 0], SphereBox[{0, 1, 2}, 0.1]}, 
+      {RGBColor[1, 1, 0], SphereBox[{0, 2, 1}, 0.1]}, 
+      {RGBColor[1, 1, 0], SphereBox[{1, 1, 1}, 0.1]}, 
+      {RGBColor[1, 1, 0], SphereBox[{2, 1, 0}, 0.1]}, 
+      {RGBColor[1, 1, 0], SphereBox[{2, 0, 1}, 0.1]}, 
+      {RGBColor[1, 1, 0], SphereBox[{1, 0, 2}, 0.1]}, 
+      {RGBColor[1, 1, 0], SphereBox[{2, 1, 2}, 0.1]}, 
+      {RGBColor[1, 1, 0], SphereBox[{2, 2, 1}, 0.1]}, 
+      {RGBColor[1, 1, 0], SphereBox[{1, 2, 2}, 0.1]}, 
+      {GrayLevel[0], 
+       Line3DBox[{{1, 1, 0}, {2, 1, 0}, {2, 2, 0}, {1, 2, 0}, {1, 1, 0}}]}, 
+      {GrayLevel[0], 
+       Line3DBox[{{1, 1, 0}, {1, 1, 1}, {2, 1, 1}, {2, 2, 1}, {1, 2, 1}, {1, 
+        1, 1}}]}, 
+      {GrayLevel[0], Line3DBox[{{2, 1, 0}, {2, 1, 1}}]}, 
+      {GrayLevel[0], Line3DBox[{{1, 2, 0}, {1, 2, 1}}]}, 
+      {GrayLevel[0], Line3DBox[{{2, 2, 0}, {2, 2, 1}}]}}, {
+      {RGBColor[0, 0, 1], SphereBox[{0, 0, 0}, 0.2]}, 
+      {RGBColor[0, 0, 1], SphereBox[{2, 0, 0}, 0.2]}, 
+      {RGBColor[0, 0, 1], SphereBox[{0, 2, 0}, 0.2]}, 
+      {RGBColor[0, 0, 1], SphereBox[{0, 0, 2}, 0.2]}, 
+      {RGBColor[0, 0, 1], SphereBox[{0, 2, 2}, 0.2]}, 
+      {RGBColor[0, 0, 1], SphereBox[{2, 2, 0}, 0.2]}, 
+      {RGBColor[0, 0, 1], SphereBox[{2, 0, 2}, 0.2]}, 
+      {RGBColor[0, 0, 1], SphereBox[{2, 2, 2}, 0.2]}, 
+      {RGBColor[0, 0, 1], SphereBox[{1, 1, 0}, 0.2]}, 
+      {RGBColor[0, 0, 1], SphereBox[{1, 0, 1}, 0.2]}, 
+      {RGBColor[0, 0, 1], SphereBox[{0, 1, 1}, 0.2]}, 
+      {RGBColor[0, 0, 1], SphereBox[{2, 1, 1}, 0.2]}, 
+      {RGBColor[0, 0, 1], SphereBox[{1, 2, 1}, 0.2]}, 
+      {RGBColor[0, 0, 1], SphereBox[{1, 1, 2}, 0.2]}, 
+      {RGBColor[1, 1, 0], SphereBox[{1, 0, 0}, 0.1]}, 
+      {RGBColor[1, 1, 0], SphereBox[{0, 1, 0}, 0.1]}, 
+      {RGBColor[1, 1, 0], SphereBox[{0, 0, 1}, 0.1]}, 
+      {RGBColor[1, 1, 0], SphereBox[{1, 2, 0}, 0.1]}, 
+      {RGBColor[1, 1, 0], SphereBox[{0, 1, 2}, 0.1]}, 
+      {RGBColor[1, 1, 0], SphereBox[{0, 2, 1}, 0.1]}, 
+      {RGBColor[1, 1, 0], SphereBox[{1, 1, 1}, 0.1]}, 
+      {RGBColor[1, 1, 0], SphereBox[{2, 1, 0}, 0.1]}, 
+      {RGBColor[1, 1, 0], SphereBox[{2, 0, 1}, 0.1]}, 
+      {RGBColor[1, 1, 0], SphereBox[{1, 0, 2}, 0.1]}, 
+      {RGBColor[1, 1, 0], SphereBox[{2, 1, 2}, 0.1]}, 
+      {RGBColor[1, 1, 0], SphereBox[{2, 2, 1}, 0.1]}, 
+      {RGBColor[1, 1, 0], SphereBox[{1, 2, 2}, 0.1]}, 
+      {GrayLevel[0], 
+       Line3DBox[{{1, 1, 1}, {2, 1, 1}, {2, 2, 1}, {1, 2, 1}, {1, 1, 1}}]}, 
+      {GrayLevel[0], 
+       Line3DBox[{{1, 1, 1}, {1, 1, 2}, {2, 1, 2}, {2, 2, 2}, {1, 2, 2}, {1, 
+        1, 2}}]}, 
+      {GrayLevel[0], Line3DBox[{{2, 1, 1}, {2, 1, 2}}]}, 
+      {GrayLevel[0], Line3DBox[{{1, 2, 1}, {1, 2, 2}}]}, 
+      {GrayLevel[0], Line3DBox[{{2, 2, 1}, {2, 2, 2}}]}}}}},
+  Axes->False,
+  AxesOrigin->{0, 0, 0},
+  Boxed->False,
+  Method->Automatic,
+  PlotRange->{{-0.5, 2.5}, {-0.5, 2.5}, {-0.5, 2.5}},
+  SphericalRegion->True,
+  ViewPoint->Dynamic[{2.7 Cos[
+       Clock[2 Pi, 10]], 2.7 Sin[
+       Clock[2 Pi, 10]], 2}]]], "Output",
+ CellChangeTimes->{3.954751734097925*^9},
+ CellLabel->"Out[11]=",ExpressionUUID->"c17b6259-4853-4380-85eb-33441b9bbc28"]
+}, Open  ]],
+
+Cell[BoxData["Quit"], "Input",
+ CellChangeTimes->{{3.954751907159042*^9, 3.954751907863804*^9}},
+ CellLabel->"In[11]:=",ExpressionUUID->"7f210e90-eeb6-4f45-b20e-208e926915dd"],
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{
+   RowBox[{"structure", "=", 
+    RowBox[{"Graphics3D", "[", 
+     RowBox[{
+      RowBox[{"Table", "[", 
+       RowBox[{
+        RowBox[{"{", 
+         RowBox[{"Blue", ",", 
+          RowBox[{"Sphere", "[", 
+           RowBox[{
+            RowBox[{"{", 
+             RowBox[{"0", ",", "0", ",", "0"}], "}"}], ",", "0.2"}], "]"}], ",",
+           "Blue", ",", 
+          RowBox[{"Sphere", "[", 
+           RowBox[{
+            RowBox[{"{", 
+             RowBox[{"2", ",", "0", ",", "0"}], "}"}], ",", "0.2"}], "]"}], ",",
+           "Blue", ",", 
+          RowBox[{"Sphere", "[", 
+           RowBox[{
+            RowBox[{"{", 
+             RowBox[{"0", ",", "2", ",", "0"}], "}"}], ",", "0.2"}], "]"}], ",",
+           "Blue", ",", 
+          RowBox[{"Sphere", "[", 
+           RowBox[{
+            RowBox[{"{", 
+             RowBox[{"0", ",", "0", ",", "2"}], "}"}], ",", "0.2"}], "]"}], ",",
+           "Blue", ",", 
+          RowBox[{"Sphere", "[", 
+           RowBox[{
+            RowBox[{"{", 
+             RowBox[{"0", ",", "2", ",", "2"}], "}"}], ",", "0.2"}], "]"}], ",",
+           "Blue", ",", 
+          RowBox[{"Sphere", "[", 
+           RowBox[{
+            RowBox[{"{", 
+             RowBox[{"2", ",", "2", ",", "0"}], "}"}], ",", "0.2"}], "]"}], ",",
+           "Blue", ",", 
+          RowBox[{"Sphere", "[", 
+           RowBox[{
+            RowBox[{"{", 
+             RowBox[{"2", ",", "0", ",", "2"}], "}"}], ",", "0.2"}], "]"}], ",",
+           "Blue", ",", 
+          RowBox[{"Sphere", "[", 
+           RowBox[{
+            RowBox[{"{", 
+             RowBox[{"2", ",", "2", ",", "2"}], "}"}], ",", "0.2"}], "]"}], ",",
+           "Blue", ",", 
+          RowBox[{"Sphere", "[", 
+           RowBox[{
+            RowBox[{"{", 
+             RowBox[{"1", ",", "1", ",", "0"}], "}"}], ",", "0.2"}], "]"}], ",",
+           "Blue", ",", 
+          RowBox[{"Sphere", "[", 
+           RowBox[{
+            RowBox[{"{", 
+             RowBox[{"1", ",", "0", ",", "1"}], "}"}], ",", "0.2"}], "]"}], ",",
+           "Blue", ",", 
+          RowBox[{"Sphere", "[", 
+           RowBox[{
+            RowBox[{"{", 
+             RowBox[{"0", ",", "1", ",", "1"}], "}"}], ",", "0.2"}], "]"}], ",",
+           "Blue", ",", 
+          RowBox[{"Sphere", "[", 
+           RowBox[{
+            RowBox[{"{", 
+             RowBox[{"2", ",", "1", ",", "1"}], "}"}], ",", "0.2"}], "]"}], ",",
+           "Blue", ",", 
+          RowBox[{"Sphere", "[", 
+           RowBox[{
+            RowBox[{"{", 
+             RowBox[{"1", ",", "2", ",", "1"}], "}"}], ",", "0.2"}], "]"}], ",",
+           "Blue", ",", 
+          RowBox[{"Sphere", "[", 
+           RowBox[{
+            RowBox[{"{", 
+             RowBox[{"1", ",", "1", ",", "2"}], "}"}], ",", "0.2"}], "]"}], ",",
+           "Yellow", ",", 
+          RowBox[{"Sphere", "[", 
+           RowBox[{
+            RowBox[{"{", 
+             RowBox[{"1", ",", "0", ",", "0"}], "}"}], ",", "0.1"}], "]"}], ",",
+           "Yellow", ",", 
+          RowBox[{"Sphere", "[", 
+           RowBox[{
+            RowBox[{"{", 
+             RowBox[{"0", ",", "1", ",", "0"}], "}"}], ",", "0.1"}], "]"}], ",",
+           "Yellow", ",", 
+          RowBox[{"Sphere", "[", 
+           RowBox[{
+            RowBox[{"{", 
+             RowBox[{"0", ",", "0", ",", "1"}], "}"}], ",", "0.1"}], "]"}], ",",
+           "Yellow", ",", 
+          RowBox[{"Sphere", "[", 
+           RowBox[{
+            RowBox[{"{", 
+             RowBox[{"1", ",", "2", ",", "0"}], "}"}], ",", "0.1"}], "]"}], ",",
+           "Yellow", ",", 
+          RowBox[{"Sphere", "[", 
+           RowBox[{
+            RowBox[{"{", 
+             RowBox[{"0", ",", "1", ",", "2"}], "}"}], ",", "0.1"}], "]"}], ",",
+           "Yellow", ",", 
+          RowBox[{"Sphere", "[", 
+           RowBox[{
+            RowBox[{"{", 
+             RowBox[{"0", ",", "2", ",", "1"}], "}"}], ",", "0.1"}], "]"}], ",",
+           "Yellow", ",", 
+          RowBox[{"Sphere", "[", 
+           RowBox[{
+            RowBox[{"{", 
+             RowBox[{"1", ",", "1", ",", "1"}], "}"}], ",", "0.1"}], "]"}], ",",
+           "Yellow", ",", 
+          RowBox[{"Sphere", "[", 
+           RowBox[{
+            RowBox[{"{", 
+             RowBox[{"2", ",", "1", ",", "0"}], "}"}], ",", "0.1"}], "]"}], ",",
+           "Yellow", ",", 
+          RowBox[{"Sphere", "[", 
+           RowBox[{
+            RowBox[{"{", 
+             RowBox[{"2", ",", "0", ",", "1"}], "}"}], ",", "0.1"}], "]"}], ",",
+           "Yellow", ",", 
+          RowBox[{"Sphere", "[", 
+           RowBox[{
+            RowBox[{"{", 
+             RowBox[{"1", ",", "0", ",", "2"}], "}"}], ",", "0.1"}], "]"}], ",",
+           "Yellow", ",", 
+          RowBox[{"Sphere", "[", 
+           RowBox[{
+            RowBox[{"{", 
+             RowBox[{"2", ",", "1", ",", "2"}], "}"}], ",", "0.1"}], "]"}], ",",
+           "Yellow", ",", 
+          RowBox[{"Sphere", "[", 
+           RowBox[{
+            RowBox[{"{", 
+             RowBox[{"2", ",", "2", ",", "1"}], "}"}], ",", "0.1"}], "]"}], ",",
+           "Yellow", ",", 
+          RowBox[{"Sphere", "[", 
+           RowBox[{
+            RowBox[{"{", 
+             RowBox[{"1", ",", "2", ",", "2"}], "}"}], ",", "0.1"}], "]"}], ",",
+           "Black", ",", 
+          RowBox[{"Line", "[", 
+           RowBox[{"{", 
+            RowBox[{
+             RowBox[{"{", 
+              RowBox[{"x", ",", "y", ",", "z"}], "}"}], ",", 
+             RowBox[{"{", 
+              RowBox[{
+               RowBox[{"x", "+", "1"}], ",", "y", ",", "z"}], "}"}], ",", 
+             RowBox[{"{", 
+              RowBox[{
+               RowBox[{"x", "+", "1"}], ",", 
+               RowBox[{"y", "+", "1"}], ",", "z"}], "}"}], ",", 
+             RowBox[{"{", 
+              RowBox[{"x", ",", 
+               RowBox[{"y", "+", "1"}], ",", "z"}], "}"}], ",", 
+             RowBox[{"{", 
+              RowBox[{"x", ",", "y", ",", "z"}], "}"}]}], "}"}], "]"}], ",", 
+          "Black", ",", 
+          RowBox[{"Line", "[", 
+           RowBox[{"{", 
+            RowBox[{
+             RowBox[{"{", 
+              RowBox[{"x", ",", "y", ",", "z"}], "}"}], ",", 
+             RowBox[{"{", 
+              RowBox[{"x", ",", "y", ",", 
+               RowBox[{"z", "+", "1"}]}], "}"}], ",", 
+             RowBox[{"{", 
+              RowBox[{
+               RowBox[{"x", "+", "1"}], ",", "y", ",", 
+               RowBox[{"z", "+", "1"}]}], "}"}], ",", 
+             RowBox[{"{", 
+              RowBox[{
+               RowBox[{"x", "+", "1"}], ",", 
+               RowBox[{"y", "+", "1"}], ",", 
+               RowBox[{"z", "+", "1"}]}], "}"}], ",", 
+             RowBox[{"{", 
+              RowBox[{"x", ",", 
+               RowBox[{"y", "+", "1"}], ",", 
+               RowBox[{"z", "+", "1"}]}], "}"}], ",", 
+             RowBox[{"{", 
+              RowBox[{"x", ",", "y", ",", 
+               RowBox[{"z", "+", "1"}]}], "}"}]}], "}"}], "]"}], ",", "Black",
+           ",", 
+          RowBox[{"Line", "[", 
+           RowBox[{"{", 
+            RowBox[{
+             RowBox[{"{", 
+              RowBox[{
+               RowBox[{"x", "+", "1"}], ",", "y", ",", "z"}], "}"}], ",", 
+             RowBox[{"{", 
+              RowBox[{
+               RowBox[{"x", "+", "1"}], ",", "y", ",", 
+               RowBox[{"z", "+", "1"}]}], "}"}]}], "}"}], "]"}], ",", "Black",
+           ",", 
+          RowBox[{"Line", "[", 
+           RowBox[{"{", 
+            RowBox[{
+             RowBox[{"{", 
+              RowBox[{"x", ",", 
+               RowBox[{"y", "+", "1"}], ",", "z"}], "}"}], ",", 
+             RowBox[{"{", 
+              RowBox[{"x", ",", 
+               RowBox[{"y", "+", "1"}], ",", 
+               RowBox[{"z", "+", "1"}]}], "}"}]}], "}"}], "]"}], ",", "Black",
+           ",", 
+          RowBox[{"Line", "[", 
+           RowBox[{"{", 
+            RowBox[{
+             RowBox[{"{", 
+              RowBox[{
+               RowBox[{"x", "+", "1"}], ",", 
+               RowBox[{"y", "+", "1"}], ",", "z"}], "}"}], ",", 
+             RowBox[{"{", 
+              RowBox[{
+               RowBox[{"x", "+", "1"}], ",", 
+               RowBox[{"y", "+", "1"}], ",", 
+               RowBox[{"z", "+", "1"}]}], "}"}]}], "}"}], "]"}]}], "}"}], ",", 
+        RowBox[{"{", 
+         RowBox[{"x", ",", "0", ",", "1"}], "}"}], ",", 
+        RowBox[{"{", 
+         RowBox[{"y", ",", "0", ",", "1"}], "}"}], ",", 
+        RowBox[{"{", 
+         RowBox[{"z", ",", "0", ",", "1"}], "}"}]}], "]"}], ",", 
+      RowBox[{"Boxed", "->", "False"}], ",", 
+      RowBox[{"Axes", "->", "False"}], ",", 
+      RowBox[{"PlotRange", "->", 
+       RowBox[{"{", 
+        RowBox[{
+         RowBox[{"{", 
+          RowBox[{
+           RowBox[{"-", "0.5"}], ",", "2.5"}], "}"}], ",", 
+         RowBox[{"{", 
+          RowBox[{
+           RowBox[{"-", "0.5"}], ",", "2.5"}], "}"}], ",", 
+         RowBox[{"{", 
+          RowBox[{
+           RowBox[{"-", "0.5"}], ",", "2.5"}], "}"}]}], "}"}]}], ",", 
+      RowBox[{"AxesOrigin", "->", 
+       RowBox[{"{", 
+        RowBox[{"0", ",", "0", ",", "0"}], "}"}]}]}], "]"}]}], ";"}], 
+  "\n"}]], "Input",
+ CellChangeTimes->{{3.954751915894809*^9, 3.9547519158975067`*^9}},
+ CellLabel->"In[1]:=",ExpressionUUID->"3c9ae37c-b498-4bda-913f-d67f4a9a1f10"],
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{
+   RowBox[{"frames", "=", 
+    RowBox[{"Table", "[", 
+     RowBox[{
+      RowBox[{"Graphics3D", "[", 
+       RowBox[{
+        RowBox[{"GeometricTransformation", "[", 
+         RowBox[{
+          RowBox[{"First", "@", "structure"}], ",", 
+          RowBox[{"RotationTransform", "[", 
+           RowBox[{"\[Theta]", ",", 
+            RowBox[{"{", 
+             RowBox[{"0", ",", "0", ",", "1"}], "}"}], ",", 
+            RowBox[{"{", 
+             RowBox[{"1", ",", "1", ",", "1"}], "}"}]}], "]"}]}], "]"}], ",", 
+        
+        RowBox[{"Options", "[", "structure", "]"}]}], "]"}], ",", 
+      RowBox[{"{", 
+       RowBox[{"\[Theta]", ",", "0", ",", 
+        RowBox[{
+         RowBox[{"2", " ", "Pi"}], "-", 
+         RowBox[{"(", 
+          RowBox[{"2", " ", 
+           RowBox[{"Pi", "/", "240"}]}], ")"}]}], ",", 
+        RowBox[{"2", " ", 
+         RowBox[{"Pi", "/", "240"}]}]}], "}"}]}], "]"}]}], ";"}], 
+  "\n"}]], "Input",
+ CellChangeTimes->{{3.954752094420746*^9, 3.9547520944223337`*^9}, {
+   3.954759379991192*^9, 3.954759380169869*^9}, 3.954759577624957*^9, {
+   3.954841759154037*^9, 3.954841768034545*^9}, {3.95484193802065*^9, 
+   3.9548419411992197`*^9}},
+ CellLabel->"In[7]:=",ExpressionUUID->"192d1388-38a8-49e9-b4ec-82a64d24554a"],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{"Export", "[", 
+   RowBox[{"\"\<structure_spin_soft.gif\>\"", ",", "frames", ",", 
+    RowBox[{"\"\<DisplayDurations\>\"", "->", "0.07"}]}], "]"}], 
+  "\n"}]], "Input",
+ CellChangeTimes->{{3.95475210624846*^9, 3.9547521062501802`*^9}, {
+   3.954759405597796*^9, 3.954759406118919*^9}, {3.954759726124609*^9, 
+   3.954759729896776*^9}, 3.954840988494503*^9, {3.954841280862965*^9, 
+   3.954841281389999*^9}, {3.954841399266666*^9, 3.954841399635543*^9}, {
+   3.954841437093885*^9, 3.954841469632872*^9}, {3.9548417747928047`*^9, 
+   3.954841783407555*^9}, {3.954841816671596*^9, 3.954841817512396*^9}, 
+   3.9548423910175533`*^9, 3.95484242482917*^9},
+ CellLabel->"In[10]:=",ExpressionUUID->"4eef7a91-1498-4d26-bd9f-2c6377e3e271"],
+
+Cell[BoxData["\<\"structure_spin_soft.gif\"\>"], "Output",
+ CellChangeTimes->{
+  3.954752123077363*^9, 3.954759417881778*^9, 3.9547595971450777`*^9, 
+   3.95475973994799*^9, 3.9548410195900383`*^9, 3.954841092145772*^9, 
+   3.95484128797542*^9, 3.954841339493352*^9, 3.9548414060762997`*^9, 
+   3.9548414430324163`*^9, 3.954841478067808*^9, 3.954841533276166*^9, {
+   3.95484180928144*^9, 3.9548418384093237`*^9}, 3.954841998558329*^9, 
+   3.954842413784244*^9, 3.954842445900611*^9},
+ CellLabel->"Out[10]=",ExpressionUUID->"2b025a70-12c0-4bab-9d32-36e4bce34e69"]
+}, Open  ]]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["Diatomic Molecule", "Title",
+ CellChangeTimes->{{3.954861772584526*^9, 
+  3.9548617883049088`*^9}},ExpressionUUID->"c56d4693-e091-4c75-b607-\
+8b54ec00fb99"],
+
+Cell[BoxData["Quit"], "Input",
+ CellChangeTimes->{{3.954861754492939*^9, 3.954861755050012*^9}},
+ CellLabel->"In[15]:=",ExpressionUUID->"5b0651b4-2af3-438c-b8b9-272ccf66ad62"],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[{
+ RowBox[{
+  RowBox[{
+   RowBox[{"\[Omega]", "=", "1"}], ";"}], " ", 
+  RowBox[{"(*", " ", 
+   RowBox[{
+   "Angular", " ", "frequency", " ", "for", " ", "the", " ", "vibration"}], 
+   " ", "*)"}], "\[IndentingNewLine]"}], "\[IndentingNewLine]", 
+ RowBox[{
+  RowBox[{
+   RowBox[{"amplitude", "=", "0.3"}], ";"}], " ", 
+  RowBox[{"(*", " ", 
+   RowBox[{
+   "Increase", " ", "the", " ", "amplitude", " ", "for", " ", "more", " ", 
+    "energetic", " ", "vibration"}], " ", "*)"}], "\[IndentingNewLine]"}], "\[IndentingNewLine]", 
+ RowBox[{
+  RowBox[{
+   RowBox[{"frames", "=", 
+    RowBox[{"Table", "[", "\[IndentingNewLine]", "  ", 
+     RowBox[{
+      RowBox[{"Graphics3D", "[", 
+       RowBox[{
+        RowBox[{"{", "\[IndentingNewLine]", "    ", 
+         RowBox[{"Blue", ",", 
+          RowBox[{"Sphere", "[", 
+           RowBox[{
+            RowBox[{"{", 
+             RowBox[{
+              RowBox[{
+               RowBox[{"-", "0.5"}], " ", "amplitude", " ", 
+               RowBox[{"Sin", "[", 
+                RowBox[{"\[Omega]", " ", "t"}], "]"}]}], ",", "0", ",", "0"}],
+              "}"}], ",", "0.2"}], "]"}], ",", "\[IndentingNewLine]", "    ", 
+          "Red", ",", 
+          RowBox[{"Sphere", "[", 
+           RowBox[{
+            RowBox[{"{", 
+             RowBox[{
+              RowBox[{"1", "+", 
+               RowBox[{"0.5", " ", "amplitude", " ", 
+                RowBox[{"Sin", "[", 
+                 RowBox[{"\[Omega]", " ", "t"}], "]"}]}]}], ",", "0", ",", 
+              "0"}], "}"}], ",", "0.2"}], "]"}], ",", "\[IndentingNewLine]", 
+          "    ", "Black", ",", 
+          RowBox[{"Cylinder", "[", 
+           RowBox[{
+            RowBox[{"{", 
+             RowBox[{
+              RowBox[{"{", 
+               RowBox[{
+                RowBox[{
+                 RowBox[{"-", "0.5"}], " ", "amplitude", " ", 
+                 RowBox[{"Sin", "[", 
+                  RowBox[{"\[Omega]", " ", "t"}], "]"}]}], ",", "0", ",", 
+                "0"}], "}"}], ",", 
+              RowBox[{"{", 
+               RowBox[{
+                RowBox[{"1", "+", 
+                 RowBox[{"0.5", " ", "amplitude", " ", 
+                  RowBox[{"Sin", "[", 
+                   RowBox[{"\[Omega]", " ", "t"}], "]"}]}]}], ",", "0", ",", 
+                "0"}], "}"}]}], "}"}], ",", "0.05"}], "]"}]}], 
+         "\[IndentingNewLine]", "  ", "}"}], ",", "\[IndentingNewLine]", "  ", 
+        RowBox[{"Boxed", "->", "False"}], ",", 
+        RowBox[{"Axes", "->", "False"}], ",", "\[IndentingNewLine]", "  ", 
+        RowBox[{"PlotRange", "->", 
+         RowBox[{"{", 
+          RowBox[{
+           RowBox[{"{", 
+            RowBox[{
+             RowBox[{"-", "1"}], ",", "2"}], "}"}], ",", 
+           RowBox[{"{", 
+            RowBox[{
+             RowBox[{"-", "1"}], ",", "1"}], "}"}], ",", 
+           RowBox[{"{", 
+            RowBox[{
+             RowBox[{"-", "1"}], ",", "1"}], "}"}]}], "}"}]}]}], "]"}], ",", 
+      "\[IndentingNewLine]", "  ", 
+      RowBox[{"{", 
+       RowBox[{"t", ",", "0", ",", 
+        RowBox[{"2", " ", "Pi"}], ",", "0.1"}], "}"}]}], 
+     "\[IndentingNewLine]", "]"}]}], ";"}], "\[IndentingNewLine]"}], "\[IndentingNewLine]", 
+ RowBox[{"Export", "[", 
+  RowBox[{"\"\<enhanced_diatomic_molecule.gif\>\"", ",", "frames", ",", 
+   RowBox[{"\"\<DisplayDurations\>\"", "->", "0.07"}]}], "]"}]}], "Input",
+ CellChangeTimes->{
+  3.954861817171736*^9, {3.954861853064376*^9, 3.9548618550287237`*^9}},
+ CellTags->"ChatGeneratedCell",
+ CellLabel->"In[5]:=",ExpressionUUID->"0e21dc43-7fa7-4563-9b3a-3d230323b985"],
+
+Cell[BoxData["\<\"enhanced_diatomic_molecule.gif\"\>"], "Output",
+ CellChangeTimes->{3.954850209739978*^9, 3.9548618211762953`*^9, 
+  3.954861867995089*^9},
+ CellTags->"ChatGeneratedCell",
+ CellLabel->"Out[8]=",ExpressionUUID->"cfc3ff06-ebc6-4195-9ce3-f4af2e10d498"]
+}, Open  ]]
+}, Open  ]]
+},
+WindowSize->{913, 951},
+WindowMargins->{{Automatic, -1526}, {27, Automatic}},
+FrontEndVersion->"14.2 for Mac OS X ARM (64-bit) (December 26, 2024)",
+StyleDefinitions->"Default.nb",
+ExpressionUUID->"44b332fe-f08f-4c4d-9f71-e2acd0c16ed9"
+]
+(* End of Notebook Content *)
+
+(* Internal cache information *)
+(*CellTagsOutline
+CellTagsIndex->{
+ "ChatGeneratedCell"->{
+  Cell[63568, 1478, 3558, 88, 335, "Input",ExpressionUUID->"0e21dc43-7fa7-4563-9b3a-3d230323b985",
+   CellTags->"ChatGeneratedCell"],
+  Cell[67129, 1568, 266, 4, 77, "Output",ExpressionUUID->"cfc3ff06-ebc6-4195-9ce3-f4af2e10d498",
+   CellTags->"ChatGeneratedCell"]}
+ }
+*)
+(*CellTagsIndex
+CellTagsIndex->{
+ {"ChatGeneratedCell", 67782, 1587}
+ }
+*)
+(*NotebookFileOutline
+Notebook[{
+Cell[CellGroupData[{
+Cell[576, 22, 167, 3, 96, "Title",ExpressionUUID->"ade54fa3-2e25-403a-8087-4fd76fd8ab60"],
+Cell[746, 27, 13849, 320, 866, "Input",ExpressionUUID->"8a91e812-3b9d-4d96-bf43-017f9bcfb3b6"],
+Cell[CellGroupData[{
+Cell[14620, 351, 21007, 500, 890, "Input",ExpressionUUID->"fb800aa0-eb51-47ba-b507-c8529c7fef80"],
+Cell[35630, 853, 15458, 292, 377, "Output",ExpressionUUID->"c17b6259-4853-4380-85eb-33441b9bbc28"]
+}, Open  ]],
+Cell[51103, 1148, 175, 2, 29, "Input",ExpressionUUID->"7f210e90-eeb6-4f45-b20e-208e926915dd"],
+Cell[51281, 1152, 9232, 247, 376, "Input",ExpressionUUID->"3c9ae37c-b498-4bda-913f-d67f4a9a1f10"],
+Cell[60516, 1401, 1284, 33, 90, "Input",ExpressionUUID->"192d1388-38a8-49e9-b4ec-82a64d24554a"],
+Cell[CellGroupData[{
+Cell[61825, 1438, 763, 13, 49, "Input",ExpressionUUID->"4eef7a91-1498-4d26-bd9f-2c6377e3e271"],
+Cell[62591, 1453, 563, 8, 33, "Output",ExpressionUUID->"2b025a70-12c0-4bab-9d32-36e4bce34e69"]
+}, Open  ]]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[63203, 1467, 162, 3, 96, "Title",ExpressionUUID->"c56d4693-e091-4c75-b607-8b54ec00fb99"],
+Cell[63368, 1472, 175, 2, 29, "Input",ExpressionUUID->"5b0651b4-2af3-438c-b8b9-272ccf66ad62"],
+Cell[CellGroupData[{
+Cell[63568, 1478, 3558, 88, 335, "Input",ExpressionUUID->"0e21dc43-7fa7-4563-9b3a-3d230323b985",
+ CellTags->"ChatGeneratedCell"],
+Cell[67129, 1568, 266, 4, 77, "Output",ExpressionUUID->"cfc3ff06-ebc6-4195-9ce3-f4af2e10d498",
+ CellTags->"ChatGeneratedCell"]
+}, Open  ]]
+}, Open  ]]
+}
+]
+*)
+
