@@ -1,3 +1,3 @@
-# ⚛️ Crystal Simulations in Mathematica
+# ⚛️ Crystal Illustrations in Mathematica
 
 Mathematica Codes for Crystal Structure Visualizations.
